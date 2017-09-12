@@ -1,0 +1,217 @@
+
+
+header {
+	height: 150px;
+	background-color: #3F171A; 
+	align-items: flex-end;
+}
+
+body {
+	background-color: white;
+}
+
+
+article {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	  
+}
+
+a {
+
+	background-color: grey;
+}
+
+h1 {
+	color: #CEBA39;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+	margin: 0;
+	color: #F1FFFA;
+	font-family: Nitti;
+}
+
+h6 {
+	margin: 3px;
+	color: #F1FFFA;
+	font-family: Nitti;
+}
+
+h3 {
+	margin:0;
+	color: #F1FFFA;
+}
+
+p {
+	margin: 0;
+	color: #F1FFFA;
+}
+
+span{
+	display:flex;
+	flex-direction: row;
+	align-items: flex-end;
+	align-self: flex-end;
+}
+
+button {
+	border: none;
+	background: none;
+    width: 15%;
+    height: 20%;
+    margin: 2%;
+    color: #FFFFFF;
+    font-size: 1em;
+    box-sizing: border-box;
+    align-items: flex-end;
+}
+
+.admin {
+	/*width: 15px;*/
+}
+
+.afro{
+	flex-direction: column;
+}
+
+.topIcon {
+	display:flex;
+	justify-content: flex-end;
+	align-items: end;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 260px;
+	height: 239px;
+
+}
+
+.flex-container {
+	display: flex;
+	/*width: 100vh;*/
+	height: 100vh;
+	align-items: flex-start;
+}
+
+
+.bottom {
+	  /*flex:1;*/
+	  display: flex;
+	  justify-content: space-between;
+	  flex-wrap: wrap;
+	  margin: 0;
+	  background-color: white;
+	  flex-basis: 75%;
+	  /*justify-content: center;*/
+	  margin-left: 187px;
+
+}
+
+.box {
+	 display: flex;
+	 width: 258px;
+	 height: 372px;
+	 margin-top: 10px;
+	 margin: 15px;
+	 margin-left: auto;
+     margin-right: unset;
+}
+
+.box1 {
+	background: url(images/girl.jpeg); 
+	background-size: 258px 134px;
+	background-repeat: no-repeat;
+	background-color: #94ABBC;
+	box-shadow: 5px 5px 2.5px #888888;
+
+}
+
+.box2 {
+	background: url(images/sunflower.jpg);
+	background-size: 258px 134px;
+	background-repeat: no-repeat;
+	background-color: #94ABBC;
+	box-shadow: 5px 5px 2.5px #888888;
+}
+
+.box3 {
+	background: url(images/magic.jpg);
+	background-size: 258px 134px;
+	background-repeat: no-repeat;
+	background-color: #94ABBC;
+	box-shadow: 5px 5px 2.5px #888888;
+}
+
+.box4 {
+	background: url(images/couple.jpg);
+	background-size: 258px 134px;
+	background-repeat: no-repeat;
+	background-color: #94ABBC;
+	box-shadow: 5px 5px 2.5px #888888;
+}
+
+.box5 {
+	background: url(images/cuteCouple.jpg);
+	background-size: 258px 134px;
+	background-repeat: no-repeat;
+	background-color: #94ABBC;
+	box-shadow: 5px 5px 2.5px #888888;
+}
+
+.box6 {
+	background: url(images/noSugarNoCream.jpg);
+	background-size: 258px 134px;
+	background-repeat: no-repeat;
+	background-color: #94ABBC;
+	box-shadow: 5px 5px 2.5px #888888;
+}
+
+.box7 {
+	background: url(images/fierce.jpg);
+	background-size: 258px 134px;
+	background-repeat: no-repeat;
+	background-color: #94ABBC;
+	box-shadow: 5px 5px 2.5px #888888;
+}
+
+.box8 {
+	background: url(images/beauty.jpg);
+	background-size: 258px 134px;
+	background-repeat: no-repeat;
+	background-color: #94ABBC;
+	box-shadow: 5px 5px 2.5px #888888;
+}
+
+.first {
+	margin: 2px;
+}
+
+.firstMiddle {
+	margin:0;
+}
+
+.middle {
+	margin:0;
+}
+
+.end {
+	height: 2px;
+}
+
+@media screen and (max-width: 320px) {
+	.bottom{
+		width:287px;
+		background-color: red;
+	}
+}
+
+
+
+
